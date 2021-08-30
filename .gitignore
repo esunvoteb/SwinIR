@@ -1,0 +1,31 @@
+
+.DS_Store
+*.pyc
+*.egg-info
+server/localdev-config.json
+credentials.json
+localdev-config.json
+
+# customized folders
+charsiew_app
+model
+# general
+logs
+.vscode
+py_env
+env
+venv
+Pipfile.lock
+tmp_*.py
+
+# credentials
+utils/credentials
+
+# local server config
+local_server_runtime_env.json
+
+# temp folder (a place for temporarily saving files)
+temp
+
+# personal debug paths
+commands/routes/debug

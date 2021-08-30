@@ -6,7 +6,7 @@ from collections import OrderedDict
 import os
 import torch
 
-from models.network_swinir import SwinIR as net
+from network.network_swinir import SwinIR as net
 from utils import util_calculate_psnr_ssim as util
 
 
